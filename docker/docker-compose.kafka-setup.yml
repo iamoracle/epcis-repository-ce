@@ -1,6 +1,6 @@
 services:
   kafkasetup:
-    image: docker.io/bitnami/kafka:3.8
+    image: docker.io/bitnamilegacy/kafka:3.8
     command: >
       bash -c 'unset JMX_PORT;
       for i in $$(seq 1 10); do

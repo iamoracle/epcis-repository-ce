@@ -38,7 +38,7 @@ services:
       - openepcis-net
 
   openepcis-kafka:
-    image: docker.io/bitnami/kafka:3.8
+    image: docker.io/bitnamilegacy/kafka:3.8
     container_name: openepcis-kafka
     environment:
       - ALLOW_PLAINTEXT_LISTENER=yes
